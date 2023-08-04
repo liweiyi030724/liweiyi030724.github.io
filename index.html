@@ -122,7 +122,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -176,7 +176,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/31/%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -194,7 +194,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/31/%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/" class="post-title-link" itemprop="url">Untitled</a>
+          <a href="/2023/08/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/" class="post-title-link" itemprop="url">Untitled</a>
         </h2>
 
         <div class="post-meta-container">
@@ -205,7 +205,7 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2023-07-31 14:53:42" itemprop="dateCreated datePublished" datetime="2023-07-31T14:53:42+08:00">2023-07-31</time>
+      <time title="Created: 2023-08-04 14:06:30" itemprop="dateCreated datePublished" datetime="2023-08-04T14:06:30+08:00">2023-08-04</time>
     </span>
 
   
@@ -218,39 +218,115 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="指纹识别"><a href="#指纹识别" class="headerlink" title="指纹识别"></a>指纹识别</h1><ul>
-<li><p>必要性：在渗透测试中，只有识别出相应的web容量或者cms，才能查找与相关的漏洞，然后才能进行相应的渗透测试</p>
-</li>
-<li><p>cve世界漏洞共享平台</p>
-</li>
-<li><p>内容管理系统（CSM）用来提交，修改，审讯，发布内容</p>
-</li>
-</ul>
-<p>常见CMS:DEDE(织梦)，帝国，骑士，易通，动易</p>
-<ul>
-<li>云悉</li>
-</ul>
-<p><a target="_blank" rel="noopener" href="https://www.yunsee.cn/">https://www.yunsee.cn/</a></p>
-<ul>
-<li>潮汐指纹识别</li>
-</ul>
-<p><a target="_blank" rel="noopener" href="http://finger.tidesec.net/">http://finger.tidesec.net/</a></p>
-<ul>
-<li><p>360指纹识别</p>
-</li>
-<li><p>whatweb（打不开）可以在kali用</p>
-</li>
-<li><p>wappalyzer火狐插件但是要充钱</p>
-</li>
-<li><p>disable javascript插件用来禁用</p>
-</li>
-</ul>
-<h1 id="业务相关"><a href="#业务相关" class="headerlink" title="业务相关"></a>业务相关</h1><p>1.GitHub泄露</p>
-<p>2.一些api开发key的泄露案列</p>
-<p>3.git储存库</p>
-<p>4.gitee储存库（国内用）</p>
-<h1 id="知识梳理图"><a href="#知识梳理图" class="headerlink" title="知识梳理图"></a>知识梳理图</h1><p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202307311051621.png" alt="image-20230731105128149"></p>
-<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202307311100057.png" alt="image-20230731110005874"></p>
+          <hr>
+<h2 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h2><h1 id="计算机基础-1"><a href="#计算机基础-1" class="headerlink" title="计算机基础"></a>计算机基础</h1><h3 id="一-HTTP响应码"><a href="#一-HTTP响应码" class="headerlink" title="一.HTTP响应码"></a>一.HTTP响应码</h3><p>HTTP 状态码由三个十进制数字组成，第一个十进制数字定义了状态码的类型。响应分为五类：信息响应(100–199)，成功响应(200–299)，重定向(300–399)，客户端错误(400–499)和服务器错误 (500–599)：</p>
+<table>
+<thead>
+<tr>
+<th>1**</th>
+<th>信息，服务器收到请求，需要请求者继续执行操作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2**</td>
+<td>成功，操作被成功接收并处理</td>
+</tr>
+<tr>
+<td>3**</td>
+<td>重定向，需要进一步的操作以完成请求</td>
+</tr>
+<tr>
+<td>4**</td>
+<td>客户端错误，请求包含语法错误或无法完成请求</td>
+</tr>
+<tr>
+<td>5**</td>
+<td>服务器错误，服务器在处理请求的过程中发生了错误</td>
+</tr>
+</tbody></table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line">100	Continue	继续。客户端应继续其请求</span><br><span class="line"></span><br><span class="line">101	Switching Protocols	切换协议。服务器根据客户端的请求切换协议。只能切换到更高级的协议，例如，切换到HTTP的新版本协议</span><br><span class="line"></span><br><span class="line">200	OK	请求成功。一般用于GET与POST请求</span><br><span class="line"></span><br><span class="line">201	Created	已创建。成功请求并创建了新的资源</span><br><span class="line"></span><br><span class="line">202	Accepted	已接受。已经接受请求，但未处理完成</span><br><span class="line"></span><br><span class="line">203	Non-Authoritative Information	非授权信息。请求成功。但返回的meta信息不在原始的服务器，而是一个副本</span><br><span class="line"></span><br><span class="line">204	No Content	无内容。服务器成功处理，但未返回内容。在未更新网页的情况下，可确保浏览器继续显示当前文档</span><br><span class="line"></span><br><span class="line">205	Reset Content	重置内容。服务器处理成功，用户终端（例如：浏览器）应重置文档视图。可通过此返回码清除浏览器的表单域</span><br><span class="line"></span><br><span class="line">206	Partial Content	部分内容。服务器成功处理了部分GET请求</span><br><span class="line"></span><br><span class="line">300	Multiple Choices	多种选择。请求的资源可包括多个位置，相应可返回一个资源特征与地址的列表用于用户终端（例如：浏览器）选择</span><br><span class="line"></span><br><span class="line">301	Moved Permanently	永久移动。请求的资源已被永久的移动到新</span><br><span class="line">URI，返回信息会包括新的URI，浏览器会自动定向到新URI。今后任何新的请求都应使用新的URI代替</span><br><span class="line"></span><br><span class="line">302	Found	临时移动。与301类似。但资源只是临时被移动。客户端应继续使用原有URI</span><br><span class="line"></span><br><span class="line">303	See Other	查看其它地址。与301类似。使用GET和POST请求查看</span><br><span class="line"></span><br><span class="line">304	Not Modified	未修改。所请求的资源未修改，服务器返回此状态码时，不会返回任何资源。客户端通常会缓存访问过的资源，通过提供一个头信息指出客户端希望只返回在指定日期之后修改的资源</span><br><span class="line"></span><br><span class="line">305	Use Proxy	使用代理。所请求的资源必须通过代理访问</span><br><span class="line"></span><br><span class="line">306	Unused	已经被废弃的HTTP状态码</span><br><span class="line"></span><br><span class="line">307	Temporary Redirect	临时重定向。与302类似。使用GET请求重定向</span><br><span class="line"></span><br><span class="line">400	Bad Request	客户端请求的语法错误，服务器无法理解</span><br><span class="line"></span><br><span class="line">401	Unauthorized	请求要求用户的身份认证</span><br><span class="line"></span><br><span class="line">402	Payment Required	保留，将来使用</span><br><span class="line"></span><br><span class="line">403	Forbidden	服务器理解请求客户端的请求，但是拒绝执行此请求</span><br><span class="line"></span><br><span class="line">404	Not Found	服务器无法根据客户端的请求找到资源（网页）。通过此代码，网站设计人员可设置&quot;您所请求的资源无法找到&quot;的个性页面</span><br><span class="line"></span><br><span class="line">405	Method Not Allowed	客户端请求中的方法被禁止</span><br><span class="line"></span><br><span class="line">406	Not Acceptable	服务器无法根据客户端请求的内容特性完成请求</span><br><span class="line"></span><br><span class="line">407	Proxy Authentication Required	请求要求代理的身份认证，与401类似，但请求者应当使用代理进行授权</span><br><span class="line"></span><br><span class="line">408	Request Time-out	服务器等待客户端发送的请求时间过长，超时</span><br><span class="line"></span><br><span class="line">409	Conflict	服务器完成客户端的 PUT 请求时可能返回此代码，服务器处理请求时发生了冲突</span><br><span class="line"></span><br><span class="line">410	Gone	客户端请求的资源已经不存在。410不同于404，如果资源以前有现在被永久删除了可使用410代码，网站设计人员可通过301代码指定资源的新位置</span><br><span class="line"></span><br><span class="line">411	Length Required	服务器无法处理客户端发送的不带Content-Length的请求信息</span><br><span class="line"></span><br><span class="line">412	Precondition Failed	客户端请求信息的先决条件错误</span><br><span class="line"></span><br><span class="line">413	Request Entity Too Large	由于请求的实体过大，服务器无法处理，因此拒绝请求。为防止客户端的连续请求，服务器可能会关闭连接。如果只是服务器暂时无法处理，则会包含一个Retry-After的响应信息</span><br><span class="line"></span><br><span class="line">414	Request-URI Too Large	请求的URI过长（URI通常为网址），服务器无法处理</span><br><span class="line"></span><br><span class="line">415	Unsupported Media Type	服务器无法处理请求附带的媒体格式</span><br><span class="line"></span><br><span class="line">416	Requested range not satisfiable	客户端请求的范围无效</span><br><span class="line"></span><br><span class="line">417	Expectation Failed	服务器无法满足Expect的请求头信息</span><br><span class="line"></span><br><span class="line">500	Internal Server Error	服务器内部错误，无法完成请求</span><br><span class="line"></span><br><span class="line">501	Not Implemented	服务器不支持请求的功能，无法完成请求</span><br><span class="line"></span><br><span class="line">502	Bad Gateway	作为网关或者代理工作的服务器尝试执行请求时，从远程服务器接收到了一个无效的响应</span><br><span class="line"></span><br><span class="line">503	Service Unavailable	由于超载或系统维护，服务器暂时的无法处理客户端的请求。延时的长度可包含在服务器的Retry-After头信息中</span><br><span class="line"></span><br><span class="line">504	Gateway Time-out	充当网关或代理的服务器，未及时从远端服务器获取请求</span><br><span class="line"></span><br><span class="line">505	HTTP Version not supported	服务器不支持请求的HTTP协议的版本，无法完成处理</span><br></pre></td></tr></table></figure>
+
+<p>程序员最想看到的：200-OK。</p>
+<p>程序员不想看到的：500-Internal-Server-Error。</p>
+<p>用户不想看到的：401-Unauthorized、403-Forbidden、408-Request-Time-out、404-not-found。</p>
+<h3 id="二-HTTP数据包结构"><a href="#二-HTTP数据包结构" class="headerlink" title="二.HTTP数据包结构"></a>二.HTTP数据包结构</h3><h5 id="1-什么是HTTP协议"><a href="#1-什么是HTTP协议" class="headerlink" title="1.什么是HTTP协议"></a>1.什么是HTTP协议</h5><p>协议是指计算机通信网络中两台计算机之间进行通信所必须共同遵守的规定或规则，超文本传输协议(HTTP)是一种通信协议，它允许将超文本标记语言(HTML)文档从Web服务器传送到客户端的浏览器</p>
+<h5 id="2-URL-地址用于描述一个网络上的资源"><a href="#2-URL-地址用于描述一个网络上的资源" class="headerlink" title="2. URL 地址用于描述一个网络上的资源"></a>2. URL 地址用于描述一个网络上的资源</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">schema://host[:port#]/path/.../[?query-string][#anchor]</span><br></pre></td></tr></table></figure>
+
+<p>scheme        指定低层使用的协议(例如：http, https, ftp)</p>
+<p>host          HTTP服务器的IP地址或者域名</p>
+<p>port#         HTTP服务器的默认端口是80，这种情况下端口号可以省略。如果使用了别的端口，必须指明，例如 <a target="_blank" rel="noopener" href="http://www.cnblogs.com:8080/">http://www.cnblogs.com:8080/</a></p>
+<p>path          访问资源的路径</p>
+<p>query-string    发送给http服务器的数据</p>
+<p>anchor-       锚</p>
+<p><strong>案例:</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">http://www.mywebsite.com/sj/test/test.aspxname=sviergn&amp;x=true#stuff</span><br><span class="line"></span><br><span class="line">Schema:                 http</span><br><span class="line">host:                   www.mywebsite.com</span><br><span class="line">path:                   /sj/test/test.aspx</span><br><span class="line">Query String:           name=sviergn&amp;x=true</span><br><span class="line">Anchor:                 stuff</span><br></pre></td></tr></table></figure>
+
+<h3 id="三-请求方式"><a href="#三-请求方式" class="headerlink" title="三.请求方式"></a>三.请求方式</h3><p>一共有15种请求方式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">GET:一般用于查询，可以改动的范围不多。请求指定的页面信息，并返回实体主体。</span><br><span class="line">POST：一般用于更新资源，可以修改的范围比较大。向指定资源提交数据进行处理请求（例如提交表单或者上传文件）。数据被包含在请求体中。POST 请求可能会导致新的资源的建立和/或已有资源的修改。</span><br><span class="line">PUT：从客户端向服务器传送的数据取代指定的文档的内容。</span><br><span class="line">PATCH：是对 PUT 方法的补充，用来对已知资源进行局部更新 </span><br><span class="line">DELETE：请求服务器删除指定的页面。</span><br><span class="line">COPY</span><br><span class="line">HEAD：类似于 GET 请求，只不过返回的响应中没有具体的内容，用于获取报头</span><br><span class="line">OPTIONS：允许客户端向服务器传送的数据取代指定的文档的内容</span><br><span class="line">LINK</span><br><span class="line">UNLINK</span><br><span class="line">PURGE</span><br><span class="line">LOCK</span><br><span class="line">UNLOCK</span><br><span class="line">PROPFIND</span><br><span class="line">VIEW</span><br></pre></td></tr></table></figure>
+
+<h3 id="四-操作系统的常用命令"><a href="#四-操作系统的常用命令" class="headerlink" title="四.操作系统的常用命令"></a>四.操作系统的常用命令</h3><h3 id="Windows的命令"><a href="#Windows的命令" class="headerlink" title="Windows的命令"></a>Windows的命令</h3><p>1.中断命令指令–ctrl+z</p>
+<p>2.cd命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cd   // 显示当前目录</span><br><span class="line">cd ..   // 进入父目录</span><br><span class="line">cd /d d:   // 进入上次d盘所在的目录（或在直接输入：d:）</span><br><span class="line">cd /d d:\   // 进入d盘根目录</span><br><span class="line">cd d: // 显示上次d盘所在的目录</span><br><span class="line">cd /d d:\src // 进入d:\src目录</span><br><span class="line">cd prj\src\view  // 进入当前目录下的prj\src\view文件夹</span><br></pre></td></tr></table></figure>
+
+<p>3.dir命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">dir   // 显示当前目录中的子文件夹与文件</span><br><span class="line">dir /b  // 只显示当前目录中的子文件夹与文件的文件名</span><br><span class="line">dir /p  // 分页显示当前目录中的子文件夹与文件</span><br><span class="line">dir /ad  // 显示当前目录中的子文件夹</span><br><span class="line">dir /a-d  // 显示当前目录中的文件</span><br><span class="line">dir c:\test   // 显示c:\test目录中的内容</span><br><span class="line">dir keys.txt  // 显示当前目录中keys.txt的信息</span><br><span class="line">dir /S   // 递归显示当前目录中的内容</span><br><span class="line">dir key*  // 显示当前目录下以key开头的文件和文件夹的信息</span><br><span class="line">dir /AH /OS  // 只显示当前目录中隐藏的文件和目录，并按照文件大小从小到大排序</span><br></pre></td></tr></table></figure>
+
+<p>4.tree命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tree d:\myfiles //显示目录文件</span><br></pre></td></tr></table></figure>
+
+<p>5.md命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">md movie music  // 在当前目录中创建名为movie和music的文件夹</span><br><span class="line">md d:\test\movie  // 创建d:\test\movie目录</span><br></pre></td></tr></table></figure>
+
+<p>6.rd命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rd movie // 删除当前目录下的movie空文件夹</span><br><span class="line">rd /s /q d:\test  // 使用安静模式删除d:\test（除目录本身外，还将删除指定目录下的所有子目录和文件）</span><br></pre></td></tr></table></figure>
+
+<h3 id="Linux的命令"><a href="#Linux的命令" class="headerlink" title="Linux的命令"></a>Linux的命令</h3><p>1.shutdown-关机</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">shutdown -h now 【立即关机】</span><br><span class="line">shutdown -h 1 【1分钟后关机，shutdown后不填默认一分钟后关机】</span><br><span class="line">shutdown -r now 【立即重启】</span><br></pre></td></tr></table></figure>
+
+<p>2.reboot-重启</p>
+<p>3.pwd-显示当前目录的绝对路径</p>
+<p>4.ls-显示当前路径下的文件和目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ls 【查看当前路径下所有文件或目录】</span><br><span class="line">ls -l 【查看当前路径下所有文件或目录的详细信息】</span><br><span class="line">ls -a 【查看当前路径下所有文件或目录，包括隐藏文件】</span><br><span class="line">ls -l index 【查看当前路径下 index 下的详细信息】</span><br></pre></td></tr></table></figure>
+
+<p>5.cd-切换至指定目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /a 【切换到 /a 目录下】</span><br><span class="line">cd ~ 【切换到用户主目录】</span><br><span class="line">cd - 【切换到上一次访问的目录】</span><br><span class="line">cd .. 【切换到当前目录的上一级】</span><br></pre></td></tr></table></figure>
+
+<p>6.mkdir-创建目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir index 【创建一个 index 目录(一级)】</span><br><span class="line">mkdir -p index/a 【创建 index 目录，其下再创建 a 目录(多级)】</span><br><span class="line">-p 选项用于创建多级目录。</span><br></pre></td></tr></table></figure>
+
+<p>7.rmdir-删除目录（空目录）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rmdir /home/a 【删除 home 下的 a 目录】 </span><br><span class="line">rmdir -rf /home/a 【强制删除 home 下的 a 目录】</span><br><span class="line">rmdir删除的是空目录，目录下有内容时是无法删除的，-rf 则可删除非空目录，慎用。</span><br></pre></td></tr></table></figure>
+
+<p>8.touch-创建空文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch hello.txt 【创建 hello.txt 空文件】</span><br></pre></td></tr></table></figure>
+
+<p>9.rm - 删除文件或目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">rm a.txt 【删除 a.txt 文件】</span><br><span class="line">rm -f a.txt 【强制删除 a.txt 文件，不提示】</span><br><span class="line">rm -r /home/a 【递归删除整个 a 目录】</span><br><span class="line">rm -rf /home/a 【递归删除整个 a 目录，不提示】</span><br></pre></td></tr></table></figure>
+
+<p>10.cat - 查看文件内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cat a.txt 【查看文件 a.txt 的内容】</span><br><span class="line">cat -n a.txt 【查看文件 a.txt 的内容，并显示行号】</span><br><span class="line">cat 指令查看文件比 vim 更安全，因为 cat 指令只能查看不能修改。</span><br></pre></td></tr></table></figure>
+
+<p>11.echo - 输出内容到控制台</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">echo $PATH 【输出环境变量 $PATH】</span><br><span class="line">echo &quot;Hello World&quot; 【输出语句“Hello World”】</span><br></pre></td></tr></table></figure>
+
+<p>12.locate - 定位文件路径</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">updatedb 【创建 locate 数据库，第一次使用 locate指令前必须先创建数据库】</span><br><span class="line">locate a.txt 【定位 a.txt 文件的路径】</span><br><span class="line">locate 指令可以快速定位文件路径，利用事先建立的系统中所有文件名称及路径的 locate 数据库实现快速定位文件，无需遍历整个文件系统；但为了保证查询准确度，管理员须定期更新locate时刻。</span><br></pre></td></tr></table></figure>
+
+<p>13.gzip - 压缩文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gzip hello.txt 【将 hello.txt 文件压缩为 .gz 文件】</span><br></pre></td></tr></table></figure>
+
+<p>14.gunzip - 解压文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gzip hello.txt.gz 【将 hello.txt.gz 文件压缩为 .txt 文件】</span><br></pre></td></tr></table></figure>
+
+<p>15.zip - 压缩文件或目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zip -r myhome.zip /home/ 【将 home 以及它的子目录压缩为 myhome.zip】</span><br><span class="line">-r 递归压缩，用于压缩目录以及目录下的子文件夹。</span><br></pre></td></tr></table></figure>
+
+<p>16.unzip - 解压文件或目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">unzip -d /tmp myhome.zip 【将 myhome.zip 解压到 /tmp 目录下】</span><br><span class="line">-d 用于指定解压后文件的存放目录。</span><br></pre></td></tr></table></figure>
+
+<p>17.tar - 打包</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tar -zcvf a.tar.gz b.txt c.txt 【将 b.txt 和 c.txt 压缩成 a.tar.gz】</span><br><span class="line">tar -zcvf a.tar.gz /home/ 【将 /home 下的文件夹压缩为 a.tar.gz】</span><br><span class="line">tar -zxvf a.tar.gz 【将 a.tar.gz 解压到当前目录】</span><br><span class="line">tar -zxvf a.tar.gz -C /tmp 【将 a.tar.gz 解压到 /tmp 目录下】</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -277,7 +353,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/29/%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/04/%E5%9B%BE%E5%BA%8A%E7%9A%84%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -295,7 +371,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/29/%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" class="post-title-link" itemprop="url">Untitled</a>
+          <a href="/2023/08/04/%E5%9B%BE%E5%BA%8A%E7%9A%84%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8/" class="post-title-link" itemprop="url">Untitled</a>
         </h2>
 
         <div class="post-meta-container">
@@ -307,7 +383,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2023-07-29 11:03:31 / Modified: 16:37:56" itemprop="dateCreated datePublished" datetime="2023-07-29T11:03:31+08:00">2023-07-29</time>
+      <time title="Created: 2023-08-04 10:53:42 / Modified: 11:20:35" itemprop="dateCreated datePublished" datetime="2023-08-04T10:53:42+08:00">2023-08-04</time>
     </span>
 
   
@@ -320,7 +396,125 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="网络空间搜索引擎"><a href="#网络空间搜索引擎" class="headerlink" title="网络空间搜索引擎"></a>网络空间搜索引擎</h1><ul>
+          <hr>
+<h2 id="图床的搭建和使用"><a href="#图床的搭建和使用" class="headerlink" title="图床的搭建和使用"></a>图床的搭建和使用</h2><h1 id="图床的搭建和使用-1"><a href="#图床的搭建和使用-1" class="headerlink" title="图床的搭建和使用"></a>图床的搭建和使用</h1><p>一.需要创建GitHub数据库</p>
+<p>怎样创建可以去看创建博客的文档</p>
+<p>二.需要下载picgo</p>
+<p><a target="_blank" rel="noopener" href="https://molunerfinn.com/PicGo/">https://molunerfinn.com/PicGo/</a></p>
+<h3 id="创建GitHub图床库"><a href="#创建GitHub图床库" class="headerlink" title="创建GitHub图床库"></a>创建GitHub图床库</h3><p>1.找到developer settings</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041119784.png" alt="image-20230804103540851"></p>
+<p>2.创建tokens</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120689.png" alt="image-20230804104015913"></p>
+<p>3.有效期设成永不失效</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120932.png" alt="image-20230804104040303"></p>
+<p>4.设置完会显示一段密码</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120761.png" alt="image-20230804104231589"></p>
+<p>5.输入token</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120674.png" alt="image-20230804104257981"></p>
+<h3 id="搭建picgo"><a href="#搭建picgo" class="headerlink" title="搭建picgo"></a>搭建picgo</h3><p>1.勾选项目</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120379.png" alt="image-20230804103152898"></p>
+<p>2.搭建GitHub图床设置</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120887.png" alt="image-20230804104403418"></p>
+<p>3.创建成功后将此设置设为默认选项</p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202308041120119.png" alt="image-20230804105157373"></p>
+<p>到此picgo设置完毕，后面就可以连接文档就可以了</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/31/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="John Doe">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Hexo">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/07/31/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-07-31 22:01:57" itemprop="dateCreated datePublished" datetime="2023-07-31T22:01:57+08:00">2023-07-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-08-04 14:13:42" itemprop="dateModified" datetime="2023-08-04T14:13:42+08:00">2023-08-04</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <hr>
+<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><h1 id="信息收集-1"><a href="#信息收集-1" class="headerlink" title="信息收集"></a>信息收集</h1><p>一.已知根域</p>
+<p>baidu,com</p>
+<p>1.baidu.com ip</p>
+<p>2.子域名 IP</p>
+<p>3.敏感信息（api接口，路径，js，住址，电话，通信软件。。。。）</p>
+<p>4.所有网站的指纹</p>
+<p>5.测试网站是否具有漏洞poc，exp（对网站有危害不建议使用）</p>
+<h2 id="二-已知网站，单位"><a href="#二-已知网站，单位" class="headerlink" title="二.已知网站，单位"></a>二.已知网站，单位</h2><p>中国电信</p>
+<p>1.有哪些根域</p>
+<p>2.分别有什么子域名</p>
+<p>3.公司结构拓扑</p>
+<p>4.子域名 IP</p>
+<p>5.敏感信息（api接口，路径，js，住址，电话，通信软件。。。。）</p>
+<p>6.所有网站的指纹</p>
+<p>7.测试网站是否具有漏洞poc，exp（对网站有危害不建议使用）</p>
+<h3 id="三-api"><a href="#三-api" class="headerlink" title="三.api"></a>三.api</h3><p><a target="_blank" rel="noopener" href="http://www.dmoe.cc/random.php">http://www.dmoe.cc/random.php</a></p>
+<p>具有一定功能的网站路经</p>
+<p>1.鹰图平台</p>
+<p><a target="_blank" rel="noopener" href="https://hunter.qianxin.com/">https://hunter.qianxin.com/</a></p>
+<h1 id="逻辑漏洞"><a href="#逻辑漏洞" class="headerlink" title="逻辑漏洞"></a>逻辑漏洞</h1><p>平台：<br>补天漏洞响应平台：<a target="_blank" rel="noopener" href="https://butian.360.cn/">https://butian.360.cn/</a><br>漏洞银行：<a target="_blank" rel="noopener" href="https://www.bugbank.cn/">https://www.bugbank.cn/</a><br>阿里云漏洞响应平台：<a target="_blank" rel="noopener" href="https://security.alibaba.com/">https://security.alibaba.com/</a><br>i春秋SRC部落：<a target="_blank" rel="noopener" href="https://www.ichunqiu.com/src">https://www.ichunqiu.com/src</a></p>
+<h1 id="网络空间搜索引擎"><a href="#网络空间搜索引擎" class="headerlink" title="网络空间搜索引擎"></a>网络空间搜索引擎</h1><ul>
 <li>shodan空间搜索引擎–用来搜索网络空间的在线设备</li>
 </ul>
 <p><a target="_blank" rel="noopener" href="https://www.shodan.io/">https://www.shodan.io/</a></p>
@@ -367,82 +561,30 @@
 <p><a target="_blank" rel="noopener" href="http://quake.360.net/">http://quake.360.net</a></p>
 <p>是三六零数字安全公司开发的产品</p>
 <p>还有一款可以部署在本地的产品叫ARL资产铁塔系统，由斗象TCC团队开发，可以通过GitHub下载安装使用</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/28/CDN/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="John Doe">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Hexo">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/28/CDN/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-07-28 21:18:06" itemprop="dateCreated datePublished" datetime="2023-07-28T21:18:06+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-29 17:10:54" itemprop="dateModified" datetime="2023-07-29T17:10:54+08:00">2023-07-29</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h1><p>一.cdn绕过技术：</p>
+<h1 id="指纹识别"><a href="#指纹识别" class="headerlink" title="指纹识别"></a>指纹识别</h1><ul>
+<li><p>必要性：在渗透测试中，只有识别出相应的web容量或者cms，才能查找与相关的漏洞，然后才能进行相应的渗透测试</p>
+</li>
+<li><p>cve世界漏洞共享平台</p>
+</li>
+<li><p>内容管理系统（CSM）用来提交，修改，审讯，发布内容</p>
+</li>
+</ul>
+<p>常见CMS:DEDE(织梦)，帝国，骑士，易通，动易</p>
+<ul>
+<li>云悉</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.yunsee.cn/">https://www.yunsee.cn/</a></p>
+<ul>
+<li>潮汐指纹识别</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://finger.tidesec.net/">http://finger.tidesec.net/</a></p>
+<ul>
+<li>360指纹识别</li>
+<li>whatweb（打不开）可以在kali用</li>
+<li>wappalyzer火狐插件但是要充钱</li>
+<li>disable javascript插件用来禁用</li>
+</ul>
+<h1 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h1><p>一.cdn绕过技术：</p>
 <ul>
 <li>pingpingping</li>
 </ul>
@@ -476,7 +618,91 @@
 
 <h4 id="intitle指令"><a href="#intitle指令" class="headerlink" title="intitle指令"></a>intitle指令</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">两个或者以上的词在url中要连在一起写，不需要用空格分开，同样的搜某个产品</span><br></pre></td></tr></table></figure>
 
+<p>一键生成指令的网站</p>
+<p><a target="_blank" rel="noopener" href="http://www.google.com.hk/advanced_search">http://www.google.com.hk/advanced_search</a></p>
+<h1 id="社工"><a href="#社工" class="headerlink" title="社工"></a>社工</h1><p>手机号，身份证，姓名，地址等等通过快递泄露的</p>
+<h1 id="业务相关"><a href="#业务相关" class="headerlink" title="业务相关"></a>业务相关</h1><p>1.GitHub泄露</p>
+<p>2.一些api开发key的泄露案列</p>
+<p>3.git储存库</p>
+<p>4.gitee储存库（国内用）</p>
+<h1 id="知识梳理图"><a href="#知识梳理图" class="headerlink" title="知识梳理图"></a>知识梳理图</h1><p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202307311051621.png" alt="image-20230731105128149"></p>
+<p><img src="https://raw.githubusercontent.com/liweiyi030724/liweiyiTUPIAN/main/test/202307311100057.png" alt="image-20230731110005874"></p>
 
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/26/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="John Doe">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Hexo">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/07/26/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">我的博客</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-07-26 16:30:51" itemprop="dateCreated datePublished" datetime="2023-07-26T16:30:51+08:00">2023-07-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-07-28 10:50:51" itemprop="dateModified" datetime="2023-07-28T10:50:51+08:00">2023-07-28</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          
       
     </div>
 
